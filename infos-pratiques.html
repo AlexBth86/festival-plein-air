@@ -1,0 +1,145 @@
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Infos Pratiques - Festival "Film en plein air"</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+<!-- ====================================== NAVIGATION ============================================= -->
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="home.html"><img src="images/logo2.png" class="logo-adjust" alt="logo-festival"> Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" style="
+    text-align: center;" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: #007bff;" href="prog.html">Programmation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #007bff;" href="actus.html">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #007bff;" href="infos-pratiques.html">Infos pratiques</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container-fluid">
+
+<!-- ====================================== SECTION 1 ============================================= -->
+    <section id="section-intro">
+      <div class="container-fluid" id="section-background-infos">
+        <div class="row" style="padding-top: 250px;">
+          <div class="col-md-12 titre-site">
+            <h1>INFOS PRATIQUES</h1>
+          </div>
+        </div>   
+      </div>
+    </section>
+
+<!-- ====================================== SECTION 2 ============================================= -->
+    <section class="pad-section-metro" id="section-map">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div id="map-container" class="z-depth-1" style="height: 500px"></div>
+          </div>
+          <div class="col-md-6 parc-monceau">
+            <h2>Parc Monceau</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="metro">
+              <h3>Métros</h3>
+              <img class="ligne-metro" src="images/ligne13.svg">
+              <img class="ligne-metro" src="images/ligne14.svg">
+            </div>
+            <div class="Bus">
+              <h3>Bus</h3>
+              <img class="ligne-bus" src="images/bus24.png">
+              <img class="ligne-bus" src="images/bus32.png">
+              <img class="ligne-bus" src="images/bus82.png">
+            </div>
+              
+          </div> 
+        </div>
+      </div>
+    </section>
+
+<!-- ====================================== FOOTER ============================================= -->
+    <footer class="pad-section footer-decoration">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="footer-text">
+              <p>FESTIVAL "FILMS EN PLEIN AIR"</p>
+              <a href="association.html">Association "Films en plein air"</a><br>
+              <a href="contact.html">Contacter l'association</a><br>
+              <a href="mentions-legales.html">Mentions légales</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <p style="color: #FFFFFF;"><img src="images/logo2.png" class="logo-adjust-intro" alt="logo-festival">Logo festival</p>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <p style="color: #FFFFFF;"><img src="images/logo.png" class="logo-adjust-intro" alt="logo-festival">Logo association</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </main><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!--Google Maps-->
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script>// Regular map
+    function regular_map() {
+        var var_location = new google.maps.LatLng(48.8796835, 2.308954999999969);
+
+        var var_mapoptions = {
+            center: var_location,
+            zoom: 14
+        };
+
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+
+        var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title: "New York"
+        });
+    }
+
+    // Initialize maps
+    google.maps.event.addDomListener(window, 'load', regular_map);
+    </script>
+
+  </body>
+</html>

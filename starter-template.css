@@ -1,0 +1,433 @@
+h1 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h2 {
+	padding-bottom: 1em;
+}
+
+h3 {
+	padding: 0.4em 0em 0.4em 0em;
+}
+
+.pad-section {
+	padding: 3em;
+}
+
+.pad-section-metro {
+	padding: 2em;
+}
+
+.container-fluid {
+	padding:0px 0px 0px 0px;
+}
+
+.btn { 
+	white-space: normal !important;
+	word-wrap: break-word;
+}
+
+
+/* ---------- NAVIGATION --------------- */
+
+#nav-decoration {
+	color: #007bff;
+}
+
+.logo-adjust {
+	width: 2em;
+	height: 2em;
+}
+
+.logo-adjust-intro {
+	width: 5em;
+	height: 5em;
+	margin-top: 1em;
+}
+
+/* ---------- SECTION 1 ---------------- */
+
+
+#section-intro p {
+	color: #ffffff;
+}
+
+#section-background-main {
+	height: 100vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/cinema-home-31.jpg);
+}
+
+#section-background {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/actualites1.jpg);
+}
+
+#section-background-infos {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/infos-pratiques11.jpg);
+}
+
+#section-background-asso {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/association.jpg);
+}
+
+#section-background-contact {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/contact.jpeg);
+}
+
+#section-background-mention {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/cinema-home-31.jpg);
+}
+
+#section-background-prog {
+	height: 75vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/programmation1.jpeg);
+}
+
+.head-logo {
+	position: absolute;
+    right: 10em;
+    top: 20em;
+    text-align: right;
+}
+
+.head-text {
+	margin-top: 4em;
+    text-align: right;
+    padding-right: 11em;
+}
+
+.date-actu {
+	color: red;
+}
+
+.border-actus {
+	border: 1px solid black;
+	padding: 3em 3em 3em 3em;
+}
+
+.img-actus {
+	width: 100%;
+}
+
+.title-actu2 {
+	text-transform: uppercase;
+}
+
+/* ---------- SECTION 2 ---------------- */
+
+/*#section-about {
+	padding: 3em; 
+}*/
+
+#map-container {
+	width: 100%;
+}
+
+#section-contact {
+	padding: 2em 2em 0em 2em;
+}
+
+.contact-form {
+	padding-bottom: 2em;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.parc-monceau {
+	padding-left: 2.5em;
+	padding-top: 2.5em;
+}
+
+.pad-section-about{
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.about-asso {
+	padding-left: 3em;
+	padding-top: 3em;
+}
+
+.about-asso-para2 {
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-right: 3.5em;
+}
+
+.img-about-asso {
+	width: 100%;
+}
+
+.metro {
+	display: inline-block;
+}
+
+.ligne-metro {
+	width: 7%;
+}
+
+.bus {
+	display: inline-block;
+}
+
+.ligne-bus {
+	width: 7%;
+}
+
+.btn-form-contact {
+	margin-top: 1em; 
+}
+
+.resa-pop-up {
+	padding-bottom: 0em;
+}
+
+.marg-form {
+	margin-bottom: 0em;
+}
+
+.pad-form-dropdwn {
+	padding-top: 1em;
+}
+
+.opt-in {
+	display: inline;
+    padding-left: 1em;
+    font-size: 0.9em;
+}
+
+
+.modal-dialog {
+	max-width: 50em;
+}
+
+.modal {
+	max-width: 100em;
+}
+
+
+/* ---------- SECTION 3 ---------------- */
+
+#section-programmation {
+	background-color: #ECECEC;
+}
+
+#section-prog-1 {
+	background-color: #ECECEC;
+}
+
+#section-prog-1:target {
+	padding-top: 80px;
+}
+
+#section-prog-2:target {
+	padding-top: 80px;
+}
+
+#section-prog-3 {
+	background-color: #ECECEC;
+}
+
+#section-prog-3:target {
+	padding-top: 80px;
+}
+
+#section-prog-4:target {
+	padding-top: 80px;
+}
+
+
+.vignette-film {
+	width: 100%;
+	height: auto;
+
+}
+
+.button-programmation {
+	padding-top: 2.5em; 
+}
+
+/*.h2-adjust-prog {
+	padding-top: 3em;
+}*/
+
+/* ---------- SECTION 4 ---------------- */
+
+
+.bouton-actus {
+    padding: 3rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn-prog {
+	cursor: pointer;
+	margin-right: 5.8em;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.nav-prog {
+    justify-content: center;
+}
+
+.nav-secondaire {
+	margin: auto;
+	padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+/* ---------- FOOTER ------------------- */
+
+
+.footer-decoration {
+	background-color: #343a40;
+}
+
+.footer-text > p {
+	color: #FFFFFF;
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (phones, 480px to 768px) */
+@media only screen and (max-width : 768px) {
+	
+	.descrip-film {
+		padding-top: 4em;
+	}
+
+	.head-logo {
+	position: unset;
+    text-align: center;
+    margin: auto;
+	}
+
+	.head-text {
+		margin-top: 1em;
+	    text-align: center;
+	    padding-right: unset;
+	}
+
+	.pad-titre-facebook {
+		padding-top: 46px;
+	}
+
+	.parc-monceau {
+	padding-left: 1em;
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+	}
+
+	.pad-section-metro {
+	padding: 1em;
+	}
+
+	.about-asso-para2 {
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-right: 3.5em;
+	padding-bottom: 1.5em;
+	}
+
+}
+
+/* Small devices (tablets, 768px to 992px) */
+@media screen and (min-width: 768px) and (max-width : 992px) { 
+	
+	.head-logo {
+	position: unset;
+    text-align: center;
+    margin: auto;
+	}
+
+	.head-text {
+		margin-top: 2em;
+	    text-align: center;
+	    padding-right: unset;
+	}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width : 992px) and (max-width: 1024px) {
+	
+	#section-background-main {
+	height: 45vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/cinema-home-31.jpg);
+}
+
+	#section-background {
+	height: 45vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/actualites.jpeg);
+}
+
+#section-background-infos {
+	height: 45vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/infos-pratiques.jpeg);
+}
+
+#section-background-asso {
+	height: 45vh;
+  	width: 100%;
+  	background-size: cover;
+  	display: table;
+  	background-attachment: center;
+  	background-image: url(images/association.jpeg);
+}
+}
